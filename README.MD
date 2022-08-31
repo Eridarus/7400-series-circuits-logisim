@@ -12,6 +12,7 @@ Currently in the library are:
 74xx133
 74xx134
 74xx150
+74xx165
 
 Any mistakes in the chips are probably my fault. I have tried to standardize them. Real pinouts are used (where multiple exist, I have tried to use the most common ones).
 
@@ -25,7 +26,7 @@ Some things I would like to add in future:
 3. Previews of each IC
 4. Make the page look nicer
 5. Make a Logisim->Spice converter so people can use this in more modern applications
-6. Test these circuits more (24 input circuit means 2097152 input cases which is a lot...)
+6. Test these circuits more (24 input circuit means 2097152 input cases which is a lot...) and Logisim's built-in tester isn't super expansive.
 7. Add buffers/inverter buffers so that when converting to Spice it accounts for delays
 8. Add delay information to all current/future ICs
 
